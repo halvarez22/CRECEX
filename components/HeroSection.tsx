@@ -5,7 +5,16 @@ export const HeroSection: React.FC = () => {
     <section id="hero" className="py-20 md:py-32 bg-cresex-blue">
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <span className="text-cresex-teal font-semibold tracking-widest">CRECEX: LO QUE SÍ FUNCURA</span>
+          <div className="flex justify-center mb-8">
+            <img
+              src="/images/logo_1.png"
+              alt="CRECEX"
+              className="h-20 md:h-28 lg:h-32 w-auto object-contain drop-shadow-[0_8px_20px_rgba(0,245,212,0.15)]"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+          <span className="text-cresex-teal font-semibold tracking-widest">LO QUE SÍ FUNCIONA</span>
           <h1 className="text-4xl md:text-6xl font-black text-white mt-4 mb-6 leading-tight">
             Inversiones de Alto Rendimiento para Profesionales como Tú.
           </h1>

@@ -24,14 +24,14 @@ const CustomTooltip: React.FC<any> = ({ active, payload, label }) => {
                     <span className="text-cresex-teal font-semibold">CRECEX</span>
                     <span className="text-white font-bold">{`$${cresexValue.toLocaleString('es-MX')}`}</span>
                 </p>
-                <p className="text-xs text-cresex-light-gray/80 mt-1">Proyección con rendimiento anual del 15%.</p>
+                <p className="text-xs text-cresex-light-gray/80 mt-1">Proyección con rendimiento anual del 18%.</p>
             </div>
             <div>
                  <p className="flex justify-between items-center">
                     <span className="text-cresex-light-gray font-semibold">Ahorro Tradicional</span>
                     <span className="text-white font-bold">{`$${tradicionalValue.toLocaleString('es-MX')}`}</span>
                 </p>
-                <p className="text-xs text-cresex-light-gray/80 mt-1">Estimado con rendimiento anual del 4%.</p>
+                <p className="text-xs text-cresex-light-gray/80 mt-1">Estimado con rendimiento anual del 7.20%.</p>
             </div>
         </div>
         {label !== 'Inicio' && (
@@ -63,11 +63,11 @@ export const PerformanceSection: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-cresex-teal rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                <span className="text-cresex-white"><strong>CRECEX:</strong> Proyección basada en un rendimiento anual promedio del 15%.</span>
+                <span className="text-cresex-white"><strong>CRECEX:</strong> Proyección basada en un rendimiento anual promedio del 18%.</span>
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-cresex-gray rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                <span className="text-cresex-white"><strong>Ahorro Tradicional:</strong> Estimado con un rendimiento anual promedio del 4%.</span>
+                <span className="text-cresex-white"><strong>Ahorro Tradicional:</strong> Estimado con un rendimiento anual promedio del 7.20%.</span>
               </li>
             </ul>
           </div>
