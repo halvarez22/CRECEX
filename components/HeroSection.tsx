@@ -1,4 +1,5 @@
 import React from 'react';
+import logoUrl from '../images/logo_1.png';
 
 export const HeroSection: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ export const HeroSection: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="flex justify-center mb-8">
             <img
-              src="/images/logo_1.png"
+              src={logoUrl}
               alt="CRECEX"
               className="h-20 md:h-28 lg:h-32 w-auto object-contain drop-shadow-[0_8px_20px_rgba(0,245,212,0.15)]"
               loading="eager"

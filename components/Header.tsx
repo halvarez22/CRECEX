@@ -1,10 +1,11 @@
 
 import React from 'react';
+import logoUrl from '../images/logo_1.png';
 
 const Logo: React.FC = () => (
   <div className="flex items-center">
     <img
-      src="/images/logo_1.png"
+      src={logoUrl}
       alt="CRECEX"
       className="h-8 w-auto object-contain transform scale-[2.25] origin-left"
       loading="eager"
